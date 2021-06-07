@@ -1,0 +1,36 @@
+.signup-container {
+    width: 100%;
+    margin: 0 auto;
+  .top {
+    background: rgb(242, 219, 161);
+    .inner {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin: 0 auto;
+      height: 23vh;
+      padding-bottom: 20px;
+    }
+
+    img {
+      height: 100px;
+      object-fit: contain;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .form-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 90%;
+      margin: 0 auto;
+      padding: 40px 0;
+
+      .form-row{
+          width: 30%;
+      }
+  }
+}
